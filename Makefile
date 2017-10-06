@@ -1,2 +1,2 @@
 all:
-	make -c ./hello/
+	make -C ./hello/
