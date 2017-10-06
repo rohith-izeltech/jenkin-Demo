@@ -7,7 +7,7 @@ all:
 	${GCC} ./$(SRC) -o ./$(BIN)
 
 run:
-	./${BIN} > ./${OUT}
+	./${BIN}
 
 clean:
 	rm -rf ./${BIN}
